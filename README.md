@@ -38,7 +38,7 @@ En caso de que no puedas resolver los errores puedes realizar las tareas con el 
 
 ## Tarea 1
 
-Generar un servicio que consuma la directiva de `$http` (`fetch` en aurelia, `iron-ajax` en polymer etc.) y así poderla utilizarla para obtener la información JSON del siguiente mock: http://demo6292426.mockable.io/more-store
+Generar un servicio que realice una petición nativa de JS y así poderla utilizarla para obtener la información JSON del siguiente mock: http://demo6292426.mockable.io/more-store
 
 ## Tarea 2
 
