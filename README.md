@@ -34,8 +34,13 @@ El proyecto tiene errores para que el candidato los resuelva y así poder empeza
 
 __¡De preferencia crea un issue para cada error que detectes!__
 
+En caso de que no puedas resolver los errores puedes realizar las tareas con el framework que prefieras (React.js, Vue.js, polymer, aurelia, ember)
 
 ## Tarea 1
+
+Generar un servicio que consuma la directiva de `$http` (`fetch` en aurelia, `iron-ajax` en polymer etc.) y así poderla utilizarla para obtener la información JSON del siguiente mock: http://demo6292426.mockable.io/more-store
+
+## Tarea 2
 
 Hacer vista de todos los productos, con ordenamientos en los siguientes campos:
 
@@ -53,7 +58,7 @@ No se podrá utilizar la función definida como `sort` ni el `order by` desde an
 
 __SOLO ESTA PERMITIDO REALIZAR JS NATIVO PARA CADA ORDENAMIENTO__
 
-## Tarea 2
+## Tarea 3
 
 Debido a que no se tiene la API Rest que nos ayude con la parte del SAVE de un nuevo producto, vamos a optar por simular esta paso con el `localStorage`.
 Un producto esta definido por las siguientes caracteristicas:
