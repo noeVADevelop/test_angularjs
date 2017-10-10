@@ -60,7 +60,7 @@ __SOLO ESTA PERMITIDO REALIZAR JS NATIVO PARA CADA ORDENAMIENTO__
 
 ## Tarea 3
 
-Debido a que no se tiene la API Rest que nos ayude con la parte del SAVE de un nuevo producto, vamos a optar por simular esta paso con el `localStorage`.
+Debido a que no se tiene la API Rest que nos ayude con la parte del SAVE de un nuevo producto, vamos a optar por simular este paso con el `localStorage`.
 Un producto esta definido por las siguientes caracteristicas:
 
 ```json
