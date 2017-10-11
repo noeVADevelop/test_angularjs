@@ -38,7 +38,7 @@ En caso de que no puedas resolver los errores puedes realizar las tareas con el 
 
 ## Tarea 1
 
-Generar un servicio que realice una petición nativa de JS y así poderla utilizarla para obtener la información JSON del siguiente mock: http://demo6292426.mockable.io/more-store
+Generar un servicio que realice una petición nativa de JS y así poder utilizarla para obtener la información JSON del siguiente mock: http://demo6292426.mockable.io/more-store
 
 ## Tarea 2
 
@@ -61,7 +61,7 @@ __SOLO ESTA PERMITIDO REALIZAR JS NATIVO PARA CADA ORDENAMIENTO__
 ## Tarea 3
 
 Debido a que no se tiene la API Rest que nos ayude con la parte del SAVE de un nuevo producto, vamos a optar por simular este paso con el `localStorage`.
-Un producto esta definido por las siguientes caracteristicas:
+Un producto esta definido por las siguientes característica:
 
 ```json
 "range": "2.21",
