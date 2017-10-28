@@ -8,10 +8,10 @@ angular.module('store', [
 ]).
 config(config);
 
-function config (locationProvider, routeProvider) {
-  locationProvider.hashPrefix('!');
-  
-  routeProvider
+function config ($locationProvider, $routeProvider) {
+  $locationProvider.hashPrefix('!');
+
+  $routeProvider
     .when('/newProduct', {
       templateUrl: 'newProduct/newProductView.html',
       controller: 'newProductController'
@@ -23,4 +23,4 @@ function config (locationProvider, routeProvider) {
     .otherwise({redirectTo: '/allProducts'});
 }
 
-config.inject = ['locationProvider', 'routeProvider'];
+config.inject = ['$locationProvider', '$routeProvider'];
