@@ -1,1 +1,20 @@
 <div>Todos los productos</div>
+<div id="products-content">
+  <table id="products-list">
+      <tr>
+        <th ng-click="sortProvider()">Proveedor</th>
+        <th ng-click="sortName()" >Nombre</th>
+        <th>Rango</th>
+        <th>Precio</th>
+        <th>Disponible</th>
+      </tr>
+      <tr class="product-item" ng-repeat="item in allItems">
+          <td scope="col">{{item.provider}}</td>
+          <td scope="col">{{item.nameOfProduct}}</td>
+          <td scope="col">{{item.range}}</td>
+          <td scope="col">{{item.price}}</td>
+          <td scope="col">{{item.isActive}}</td>
+      </tr>
+    </li>
+  </table>
+</div>
