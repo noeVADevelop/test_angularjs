@@ -1,3 +1,17 @@
-<form>
-  Nuevo Producto
+<h3>Nuevo Producto</h3>
+<form id="newProductForm">
+    <input class="form-element" placeholder="Tag, Tag" type="text" name="tags" ng-model="formData.tags"/>
+    <input class="form-element" placeholder="Description" type="text" name="description" ng-model="formData.description"/>
+    <input class="form-element" placeholder="SKU" type="text" name="sku" ng-model="formData.sku"/>
+    <input class="form-element" placeholder="Picture URL" type="text" name="picture" ng-model="formData.picture"/>
+    <input class="form-element" placeholder="ID" type="text" name="id" ng-model="formData.id"/>
+    <input class="form-element" placeholder="Name" type="text" name="name" ng-model="formData.name"/>
+    <input class="form-element" placeholder="Range" type="text" name="range" ng-model="formData.range"/>
+    <input class="form-element" placeholder="Price" type="text" name="price" ng-model="formData.price"/>
+    <select class="form-element" name="isActive" ng-model="formData.isActive">
+      <option selected="selected" value="true">Disponible</option>
+      <option value="false">No Disponible</option>
+    </select>
+    <button class="form-element" ng-click="saveProduct()">Send</button>
 </form>
+
